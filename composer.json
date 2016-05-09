@@ -2,6 +2,13 @@
     "require": {
         "codeception/codeception": "*",
         "fzaninotto/faker": "*",
-        "yiisoft/yii2": "*"
+        "yiisoft/yii2": "*",
+        "fxp/composer-asset-plugin": "~1.1"
+    },
+    "extra": {
+    	"asset-installer-paths": {
+            "npm-asset-library": "vendor/npm",
+            "bower-asset-library": "vendor/bower"
+        }
     }
 }

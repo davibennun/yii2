@@ -6,6 +6,6 @@
            'request' => [
                'cookieValidationKey' => 'your secret key here'
             ],
-            
+            'db' => require(__DIR__ . '/db.php'),
         ]
     ];

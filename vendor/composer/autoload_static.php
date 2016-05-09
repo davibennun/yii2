@@ -47,6 +47,7 @@ class ComposerStaticInitc25faaa4569d23be3e19c7c097b65052
         ),
         'F' => 
         array (
+            'Fxp\\Composer\\AssetPlugin\\' => 25,
             'Faker\\' => 6,
             'Facebook\\WebDriver\\' => 19,
         ),
@@ -122,6 +123,10 @@ class ComposerStaticInitc25faaa4569d23be3e19c7c097b65052
         'GuzzleHttp\\' => 
         array (
             0 => __DIR__ . '/..' . '/guzzlehttp/guzzle/src',
+        ),
+        'Fxp\\Composer\\AssetPlugin\\' => 
+        array (
+            0 => __DIR__ . '/..' . '/fxp/composer-asset-plugin',
         ),
         'Faker\\' => 
         array (
