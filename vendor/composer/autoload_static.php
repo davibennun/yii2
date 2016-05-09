@@ -11,9 +11,19 @@ class ComposerStaticInitc25faaa4569d23be3e19c7c097b65052
         'a0edc8309cc5e1d60e3047b5df6b7052' => __DIR__ . '/..' . '/guzzlehttp/psr7/src/functions_include.php',
         'c964ee0ededf28c96ebd9db5099ef910' => __DIR__ . '/..' . '/guzzlehttp/promises/src/functions_include.php',
         '37a3dc5111fe8f707ab4c132ef1dbc62' => __DIR__ . '/..' . '/guzzlehttp/guzzle/src/functions_include.php',
+        '2cffec82183ee1cea088009cef9a6fc3' => __DIR__ . '/..' . '/ezyang/htmlpurifier/library/HTMLPurifier.composer.php',
     );
 
     public static $prefixLengthsPsr4 = array (
+        'y' => 
+        array (
+            'yii\\composer\\' => 13,
+            'yii\\' => 4,
+        ),
+        'c' => 
+        array (
+            'cebe\\markdown\\' => 14,
+        ),
         'S' => 
         array (
             'Symfony\\Polyfill\\Mbstring\\' => 26,
@@ -53,6 +63,18 @@ class ComposerStaticInitc25faaa4569d23be3e19c7c097b65052
     );
 
     public static $prefixDirsPsr4 = array (
+        'yii\\composer\\' => 
+        array (
+            0 => __DIR__ . '/..' . '/yiisoft/yii2-composer',
+        ),
+        'yii\\' => 
+        array (
+            0 => __DIR__ . '/..' . '/yiisoft/yii2',
+        ),
+        'cebe\\markdown\\' => 
+        array (
+            0 => __DIR__ . '/..' . '/cebe/markdown',
+        ),
         'Symfony\\Polyfill\\Mbstring\\' => 
         array (
             0 => __DIR__ . '/..' . '/symfony/polyfill-mbstring',
@@ -140,6 +162,13 @@ class ComposerStaticInitc25faaa4569d23be3e19c7c097b65052
             'Prophecy\\' => 
             array (
                 0 => __DIR__ . '/..' . '/phpspec/prophecy/src',
+            ),
+        ),
+        'H' => 
+        array (
+            'HTMLPurifier' => 
+            array (
+                0 => __DIR__ . '/..' . '/ezyang/htmlpurifier/library',
             ),
         ),
     );
