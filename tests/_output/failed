@@ -1,0 +1,2 @@
+tests/acceptance/QueryCustomerByPhoneNumberCept.php
+tests/acceptance/SmokeTestCept.php
