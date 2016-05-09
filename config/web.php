@@ -10,6 +10,13 @@
             'gii' => [
                    'class' => 'yii\gii\Module',
                    'allowedIPs' => ['*']
+             ],
+             'view' => [
+                'renderers' => [
+                    'md' => [
+                        'class' => 'app\utilities\MarkdownRenderer'
+                    ]
+                ]
              ]
         ],
         'modules' => [
