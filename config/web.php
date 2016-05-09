@@ -39,6 +39,9 @@
                       'class' => 'app\utilities\SecondModule'
                   ]
               ]
+          ],
+          'api' => [
+               'class' => 'app\api\ApiModule'
           ]
         ]
     ];
