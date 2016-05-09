@@ -6,7 +6,7 @@ class CRMUserSteps extends \AcceptanceTester
 	public function amInQueryCustomerUI()
 	{
 		$I = $this;
-		$I->amOnPage('/customers/query');
+		$I->amOnPage('?r=/customers/query');
 	}
 
 	public function fillInPhoneFieldWithDataFrom($customer_data)
@@ -24,7 +24,7 @@ class CRMUserSteps extends \AcceptanceTester
 	public function seeIAmInListCustomersUi()
 	{
 		$I = $this;
-		$I->seeCurrentUrlMatches('/customers/');
+		$I->seeInCurrentUrl('customers');
 	}
 
 	public function seeCustomerInList($customer_data)

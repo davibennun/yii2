@@ -6,7 +6,7 @@ class CRMOperatorSteps extends \AcceptanceTester
 	public function amInAddCustomerUi()
 	{
 		$I = $this;
-		$I->amOnPage('/customers/add');
+		$I->amOnPage('?r=/customers/add');
 	}
 
 	public function imagineCustomer()
@@ -37,13 +37,13 @@ class CRMOperatorSteps extends \AcceptanceTester
 	public function seeIAmInListCustomersUi()
 	{
 		$I = $this;
-		$I->seeCurrentUrlMatches('/customers/');
+		$I->seeInCurrentUrl('customers');
 	}
 
 	public function amInListCustomersUi()
 	{
 		$I = $this;
-		$I->amOnPage('/customers');
+		$I->amOnPage('?r=customers/index');
 	}
 
 }
