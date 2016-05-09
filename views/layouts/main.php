@@ -1,8 +1,7 @@
 <?php
 use yii\helpers\Html;
 
-\yii\bootstrap\BootstrapAsset::register($this); 
-\yii\web\YiiAsset::register($this);
+app\assets\ApplicationUiAssetBundle::register($this);
 
 ?>
 <?php $this->beginPage() ?>
