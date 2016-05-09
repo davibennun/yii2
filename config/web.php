@@ -31,6 +31,14 @@
              ]
         ],
         'modules' => [
-          'gii' => 'yii\gii\Module'
+          'gii' => 'yii\gii\Module',
+          'firstlevel' => [
+              'class' => 'app\utilities\FirstModule',
+              'modules' => [
+                  'secondlevel' => [
+                      'class' => 'app\utilities\SecondModule'
+                  ]
+              ]
+          ]
         ]
     ];
