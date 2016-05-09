@@ -3,7 +3,8 @@
         "codeception/codeception": "*",
         "fzaninotto/faker": "*",
         "yiisoft/yii2": "*",
-        "fxp/composer-asset-plugin": "~1.1"
+        "fxp/composer-asset-plugin": "~1.1",
+        "yiisoft/yii2-gii": "*"
     },
     "extra": {
     	"asset-installer-paths": {
