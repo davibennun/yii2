@@ -4,5 +4,8 @@
        'basePath' => realpath(__DIR__ . '/../'),
        'components' => [
            'request' => [
-               'cookieValidationKey' => 'your secret key here',
-￼￼], ],];
+               'cookieValidationKey' => 'your secret key here'
+            ],
+            
+        ]
+    ];
