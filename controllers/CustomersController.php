@@ -12,7 +12,7 @@ class CustomersController extends Controller
 {
 	public function actionIndex()
 	{
-		$records = $this->wrapIntoDataProvider($this->getRecordsAccordingToQuery());
+		$records = $this->findRecordsByQuery();
 		return $this->render('index', compact('records'));
 	}
 	
