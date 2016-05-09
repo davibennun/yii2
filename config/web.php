@@ -6,6 +6,13 @@
            'request' => [
                'cookieValidationKey' => 'your secret key here'
             ],
+            'response' => [
+              'formatters' => [
+                  'yaml' => [
+                    'class' => 'app\utilities\YamlResponseFormatter'
+                  ]
+              ]
+            ],
             'db' => require(__DIR__ . '/db.php'),
             'gii' => [
                    'class' => 'yii\gii\Module',
